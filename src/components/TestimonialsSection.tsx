@@ -22,9 +22,9 @@ const testimonials = [
     rating: 5
   },
   {
-    name: "Tatiana Carilly",
-    role: "Jornalista, Pedagoga, Mestre em Comunicação Social",
-    content: "Antes dele, eu achava que sabia o que era amar, mas só quando o segurei nos braços pela primeira vez entendi que o amor de mãe não tem medida.",
+    name: "Amanda Moura",
+    role: "Assistente Comercial",
+    content: "Antes dela, eu achava que sabia o que era amar, mas só quando o segurei nos braços pela primeira vez entendi que o amor de mãe não tem medida.",
     avatar: "/imgs/.png",
     rating: 5
   }
