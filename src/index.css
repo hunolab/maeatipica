@@ -1,3 +1,12 @@
+/* Fonte Bird House */
+@font-face {
+  font-family: 'Bird House';
+  src: url('/fonts/BirdHouse.otf') format('opentype'); /* 👈 Use 'BirdHouse.otf' sem espaço */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Melhora o carregamento */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -7,24 +8,24 @@ gsap.registerPlugin(ScrollTrigger);
 
 const testimonials = [
   {
-    name: "Julia Dias",
-    role: "Estudante de Veterinária",
-    content: "Amei essa ideia! Transformar memórias e momentos especiais com nossos animais em um livro é algo inspirador. Parabéns a todos que vão tornam isso possível, é simplesmente lindo!",
-    avatar: "/imgs/juliadias.png",
+    name: "Fabricia Dias",
+    role: "Empresária",
+    content: "Ser mãe de quatro filhos é viver quatro histórias de amor ao mesmo tempo. Cada um deles me ensina algo novo",
+    avatar: "/imgs/fabricia.png",
     rating: 5
   },
   {
-    name: "Maria Fernanda Toffoli",
-    role: "Mestre em Direito da Saúde Animal",
-    content: "Fiquei impressionada com a seriedade e o profissionalismo da proposta. Definitivamente, é uma oportunidade de contribuir para algo realmente significativo na literatura pet.",
-    avatar: "/imgs/Toffoli.png",
+    name: "Alessandra Ksenhuck",
+    role: "Empresaria",
+    content: "Quando o Lucca nasceu, eu descobri um amor que não sabia que existia",
+    avatar: "/imgs/ale1.png",
     rating: 5
   },
   {
     name: "Tatiana Carilly",
     role: "Jornalista, Pedagoga, Mestre em Comunicação Social",
-    content: "Esta é uma forma maravilhosa de dar voz a histórias que merecem ser contadas. Um projeto que celebra o amor incondicional dos nossos companheiros.",
-    avatar: "/imgs/tatiana.png",
+    content: "Antes dele, eu achava que sabia o que era amar, mas só quando o segurei nos braços pela primeira vez entendi que o amor de mãe não tem medida.",
+    avatar: "/imgs/.png",
     rating: 5
   }
 ];
@@ -69,7 +70,7 @@ const TestimonialsSection = () => {
     <section ref={sectionRef} className="py-12 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-12">
-          <h2 className="font-heading font-bold text-2xl md:text-4xl mb-4 text-primary">
+          <h2 className="font-heading font-bold text-2xl md:text-4xl mb-4" style={{ color: '#ff3a60' }}>
             O que dizem sobre o Projeto
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -92,7 +93,7 @@ const TestimonialsSection = () => {
               {/* Stars */}
               <div className="flex mb-3">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 md:w-5 md:h-5 text-accent fill-current" />
+                  <Star key={i} className="w-4 h-4 md:w-5 md:h-5" style={{ color: '#a44457', fill: '#a44457' }} />
                 ))}
               </div>
 
@@ -110,7 +111,7 @@ const TestimonialsSection = () => {
                   className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover"
                 />
                 <div>
-                  <div className="font-semibold text-primary text-sm md:text-base">{testimonial.name}</div>
+                  <div className="font-semibold text-sm md:text-base" style={{ color: '#eba496' }}>{testimonial.name}</div>
                   <div className="text-xs md:text-sm text-muted-foreground">{testimonial.role}</div>
                 </div>
               </div>

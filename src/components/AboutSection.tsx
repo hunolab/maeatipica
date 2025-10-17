@@ -113,47 +113,45 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
           {/* Conteúdo */}
           <div ref={contentRef} className="order-2 lg:order-1">
-            <h2 className="font-heading font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-3 sm:mb-4 md:mb-6 text-primary">
+            <h2 className="font-heading font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-3 sm:mb-4 md:mb-6" style={{ color: '#ba455c' }}>
               Uma Obra Literária
-              <span className="block text-accent">sobre Pets</span>
+              <span className="block" style={{ fontFamily: 'Bird House, sans-serif', color: '#ff3a60', fontSize: '50px' }}>
+                De Mãe para Mãe
+              </span>
             </h2>
 
             <div className="space-y-3 sm:space-y-4 text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed max-w-prose">
               <p>
-                Este livro será uma coletânea única de histórias reais, tocantes e
-                inspiradoras sobre a relação especial entre humanos e seus
-                companheiros de quatro patas.
+                A Literare Books tem o orgulho de apresentar seu mais novo projeto de coautoria: De Mãe para Mãe – Uma jornada atípica de resiliência, desafios e propósito, sob coordenação editorial de Gabriela Daros Castro, esposa do renomado Dr. Thiago Castro.
               </p>
               <p>
-                Cada coautor terá a oportunidade de contribuir com sua experiência
-                pessoal, criando uma obra diversa que celebra o amor incondicional, a
-                lealdade e as lições de vida que nossos pets nos proporcionam
-                diariamente.
+                Mais do que um livro, este projeto é um abraço em forma de palavras, reunindo histórias reais de mães que vivem a maternidade atípica com coragem e amor.
               </p>
               <p>
-                Mais do que um livro, esta será uma jornada emocional que conecta
-                corações através de histórias autênticas sobre resgate, cura,
-                companheirismo e a magia transformadora do amor aos animais.
+                Cada capítulo será uma troca de experiências, aprendizados e superações, de mãe para mãe, para inspirar e acolher quem enfrenta caminhos semelhantes.
+                </p>
+                <p>
+                Se você é mãe de uma criança com autismo ou qualquer outra condição que desafia o cotidiano, e deseja transformar sua vivência em uma mensagem de força e esperança, esse projeto é para você.
               </p>
             </div>
 
             <div className="mt-4 sm:mt-6 flex flex-wrap gap-2 sm:gap-3">
               <div className="flex items-center space-x-1 sm:space-x-2">
-                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-accent rounded-full"></div>
-                <span className="text-xs sm:text-sm font-medium text-primary">
-                  Histórias Reais
+                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full" style={{ backgroundColor: '#f9cec6' }}></div>
+                <span className="text-xs sm:text-sm font-medium" style={{ color: '#a44457' }}>
+                  Amor de verdade
                 </span>
               </div>
               <div className="flex items-center space-x-1 sm:space-x-2">
-                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-brand-blue-intense rounded-full"></div>
-                <span className="text-xs sm:text-sm font-medium text-primary">
-                  Publicação Profissional
+                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full" style={{ backgroundColor: '#ba455c' }}></div>
+                <span className="text-xs sm:text-sm font-medium" style={{ color: '#a44457' }}>
+                  Maternidade sem filtros
                 </span>
               </div>
               <div className="flex items-center space-x-1 sm:space-x-2">
-                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-brand-blue-soft rounded-full"></div>
-                <span className="text-xs sm:text-sm font-medium text-primary">
-                  Seu Pet Eternizado
+                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full" style={{ backgroundColor: '#ff3a60' }}></div>
+                <span className="text-xs sm:text-sm font-medium" style={{ color: '#a44457' }}>
+                  Vivências que inspiram
                 </span>
               </div>
             </div>
@@ -163,7 +161,7 @@ const AboutSection = () => {
           <div ref={imageRef} className="order-1 lg:order-2 flex justify-center">
             <div className="relative sm:transform sm:rotate-3 sm:hover:rotate-0 transition-transform duration-500 shadow-md sm:shadow-lg rounded-lg sm:rounded-xl overflow-hidden max-w-[14rem] sm:max-w-[16rem] md:max-w-[18rem] lg:max-w-[20rem]">
               <img
-                src="/imgs/frontabook.png"
+                src="/imgs/familiacastro.jpg"
                 alt="Capa do Livro sobre Pets"
                 className="w-full h-auto object-cover rounded-lg sm:rounded-xl"
                 loading="lazy"
@@ -179,7 +177,7 @@ const AboutSection = () => {
 
         {/* Seção de Apoio */}
         <div ref={supportRef} className="mt-10 sm:mt-12 md:mt-16 text-center">
-          <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-600">
+          <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6" style={{ color: '#ba455c' }}>
             Apoio
           </h3>
           <div className="flex justify-center">

@@ -6,24 +6,24 @@ gsap.registerPlugin(ScrollTrigger);
 
 const videoCards = [
   {
-    title: "Histórias de Resgate",
-    description: "Compartilhe emocionantes relatos de salvamento e transformação de vidas através do amor aos animais.",
-    imageSrc: "/imgs/papagaio1.png"
+    title: "Desafios e Superações",
+    description: "Compartilhe momentos difíceis e como você encontrou força e soluções para enfrentar cada desafio da maternidade.",
+    imageSrc: "/imgs/amor.png"
   },
   {
-    title: "Momentos Especiais",
-    description: "Capture e eternize os momentos mais marcantes e divertidos ao lado do seu companheiro de quatro patas.",
-    imageSrc: "/imgs/dog1.png"
+    title: "Momentos de Alegria",
+    description: "Eternize os momentos mais divertidos, emocionantes e memoráveis ao lado dos seus filhos.",
+    imageSrc: "/imgs/cuidado.png"
   },
   {
-    title: "Lições de Vida",
-    description: "Descubra como os pets nos ensinam sobre amor, lealdade, perseverança e felicidade genuína.",
-    imageSrc: "/imgs/beta.png"
+    title: "Aprendizados de Vida",
+    description: "Mostre como a maternidade ensina sobre paciência, amor incondicional, resiliência e crescimento pessoal.",
+    imageSrc: "/imgs/dedicação.png"
   },
   {
-    title: "Conexões Únicas",
-    description: "Explore o vínculo extraordinário entre humanos e animais que transcende palavras e barreiras.",
-    imageSrc: "/imgs/cat.png"
+    title: "Conexões e Laços",
+    description: "Conte sobre os vínculos especiais com seus filhos, familiares e comunidade, e como eles transformam sua experiência como mãe.",
+    imageSrc: "/imgs/protecao.png"
   }
 ];
 
@@ -96,7 +96,7 @@ const CombinedSections: React.FC = () => {
             <div className="w-full md:w-5/12 mb-6 md:mb-0 px-4">
               <div className="relative w-full rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="/imgs/img7.jpg"
+                  src="/imgs/congresso.png"
                   alt="Histórias de pets"
                   loading="lazy"
                   className="w-full h-auto object-contain max-w-full"
@@ -109,15 +109,15 @@ const CombinedSections: React.FC = () => {
               <div className="md:pr-8">
                 <div
                   className="p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-4 shadow-lg rounded-full"
-                  style={{ backgroundColor: "#da4925", color: "#fff" }}
+                  style={{ backgroundColor: "#ffc1b5", color: "#fff" }}
                 >
                   <i className="fas fa-rocket text-lg"></i>
                 </div>
-                <h3 className="text-2xl md:text-3xl font-semibold" style={{ color: "#1a87b5" }}>
+                <h3 className="text-2xl md:text-3xl font-semibold" style={{ color: "hsl(349, 55%, 50%)" }}>
                   Histórias que Conectam
                 </h3>
                 <p className="mt-4 text-base md:text-lg leading-relaxed text-gray-500">
-                  Transforme sua experiência prática em uma obra literária inspiradora, mostrando sua paixão e dedicação aos cuidados com pets.
+                  Transforme suas experiências como mãe em uma obra literária inspiradora, mostrando sua dedicação, amor e desafios do dia a dia da maternidade.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -129,11 +129,11 @@ const CombinedSections: React.FC = () => {
                         <i className="fas fa-fingerprint"></i>
                       </span>
                       <div>
-                        <h4 className="text-base font-semibold text-[#da4925]">
+                        <h4 className="text-base font-semibold" style={{ color: "hsl(349, 55%, 50%)" }}>
                           Autoridade e Inspiração
                         </h4>
                         <p className="text-sm md:text-base text-gray-500">
-                          Mostre ao mercado que além de cuidar, você também inspira. Sua história real se torna referência para colegas e clientes.
+                          Mostre que sua vivência pode inspirar outras mães. Sua história real se torna referência e exemplo de força, resiliência e amor incondicional.
                         </p>
                       </div>
                     </div>
@@ -147,11 +147,11 @@ const CombinedSections: React.FC = () => {
                         <i className="fab fa-html5"></i>
                       </span>
                       <div>
-                        <h4 className="text-base font-semibold text-[#da4925]">
-                          Conexão com a Comunidade
+                        <h4 className="text-base font-semibold" style={{ color: "hsl(349, 55%, 50%)" }}>
+                          Conexão com Outras Mães
                         </h4>
                         <p className="text-sm md:text-base text-gray-500">
-                          Compartilhe sua jornada e crie vínculos com outros profissionais que também fazem a diferença no bem-estar animal.
+                          Compartilhe sua jornada e crie vínculos com mulheres que vivem experiências semelhantes, fortalecendo uma rede de apoio e empatia.
                         </p>
                       </div>
                     </div>
@@ -165,11 +165,11 @@ const CombinedSections: React.FC = () => {
                         <i className="far fa-paper-plane"></i>
                       </span>
                       <div>
-                        <h4 className="text-base font-semibold text-[#da4925]">
-                          Legado Profissional
+                        <h4 className="text-base font-semibold" style={{ color: "hsl(349, 55%, 50%)" }}>
+                          Legado Pessoal e Familiar
                         </h4>
                         <p className="text-sm md:text-base text-gray-500">
-                          Deixe registrada a sua experiência de vida e de carreira em um livro que eterniza o amor e a responsabilidade pelos animais.
+                          Deixe registrada sua trajetória materna em um livro que eterniza suas memórias, aprendizados e amor, criando um legado para suas filhas e futuras gerações.
                         </p>
                       </div>
                     </div>
@@ -185,11 +185,11 @@ const CombinedSections: React.FC = () => {
       <section ref={sectionRef} className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 md:mb-12">
-            <h2 className="font-heading font-bold text-2xl md:text-4xl mb-4 text-primary">
+            <h2 className="font-heading font-bold text-2xl md:text-4xl mb-4" style={{ color: "hsl(349, 55%, 50%)" }}>
               Temas para sua História
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-              Explore diferentes abordagens para contar sua experiência única com o mundo dos pets
+              Explore diferentes formas de contar sua experiência única na maternidade.
             </p>
           </div>
 
@@ -212,7 +212,7 @@ const CombinedSections: React.FC = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
                 <div className="p-4 md:p-6">
-                  <h3 className="font-heading font-semibold text-lg md:text-xl mb-2 text-primary group-hover:text-[#1a87b5] transition-colors">
+                  <h3 className="font-heading font-semibold text-lg md:text-xl mb-2" style={{ color: "hsl(349, 100%, 61%)" }}>
                     {card.title}
                   </h3>
                   <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
